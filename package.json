@@ -1,0 +1,34 @@
+
+{
+  "name": "gulp-softlayer-storage",
+  "version": "0.0.3",
+  "description": "A plugin for Gulp that uploads files to SoftLayer's Object Store",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "softlayer",
+    "softlayer-objectstore"
+  ],
+  "homepage": "https://github.com/techknowlogick/gulp-softlayer-storage",
+  "bugs": "https://github.com/techknowlogick/gulp-softlayer-storage/issues",
+  "author": {
+    "name": "Matti Ranta",
+    "email": "",
+    "url": "https://github.com/techknowlogick"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/techknowlogick/gulp-softlayer-storage.git"
+  },
+  "dependencies": {
+    "event-stream": "*",
+    "gulp-util": "~3.0",
+    "request": "~2.69"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=1.2.10"
+  },
+  "license" : "MIT" 
+}
